@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Units</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: azure;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        h1 {
+            color: #333;
+        }
+        .unit-boxes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .unit-box {
+            width: 150px;
+            height: 150px;
+            background-color: white;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+            border: 2px solid #333;
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .unit-box:hover {
+            transform: scale(1.05);
+            background-color: #007fff;
+            color: white;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Units</h1>
+    <div class="unit-boxes">
+        <div class="unit-box"><a href="unit1.html">Unit 1</a></div>
+        <div class="unit-box"><a href="unit2.html">Unit 2</a></div>
+        <div class="unit-box"><a href="unit3.html">Unit 3</a></div>
+        <div class="unit-box"><a href="unit4.html">Unit 4</a></div>
+        <div class="unit-box"><a href="unit5.html">Unit 5</a></div>
+        <div class="unit-box"><a href="unit6.html">Unit 6</a></div>
+    </div>
+
+</body>
+</html>
